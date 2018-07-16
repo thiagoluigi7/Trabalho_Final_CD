@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mouse">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|VGAdrive:inst9|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_ooh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|divfreq:inst18|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_voh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_soh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add4" CBX_FILE_NAME="add_sub_gji.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|ps2_mouse:inst|ps2_transceiver:ps2_transceiver_0|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_qoh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_2ph.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|multplicador:inst16|lpm_mult:lpm_mult_component|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_f4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|ps2_mouse:inst|ps2_transceiver:ps2_transceiver_0|debounce:debounce_ps2_clk|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_fnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|ps2_mouse:inst|ps2_transceiver:ps2_transceiver_0|debounce:debounce_ps2_data|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_fnh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|ps2_mouse:inst|ps2_transceiver:ps2_transceiver_0|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_njh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add2" CBX_FILE_NAME="add_sub_roh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|multplicador:inst17|lpm_mult:lpm_mult_component|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_f4h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|VGAdrive:inst9|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_ooh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add3" CBX_FILE_NAME="add_sub_soh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mouse|mira:inst1|lpm_add_sub:Add7" CBX_FILE_NAME="add_sub_gji.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

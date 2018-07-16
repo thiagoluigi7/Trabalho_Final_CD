@@ -1,0 +1,88 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+# Date created = 14:19:48  June 29, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		mouse_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY FLEX10K
+set_global_assignment -name DEVICE "EPF10K20RC240-4"
+set_global_assignment -name TOP_LEVEL_ENTITY mouse
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:19:48  JUNE 29, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.0 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name FLEX10K_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_91 -to clk
+set_location_assignment PIN_30 -to ps2_clk
+set_location_assignment PIN_31 -to ps2_data
+set_location_assignment PIN_28 -to reset_n
+set_location_assignment PIN_25 -to FLEX_DIGIT1_DP
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_location_assignment PIN_17 -to LSD[6]
+set_location_assignment PIN_18 -to LSD[5]
+set_location_assignment PIN_19 -to LSD[4]
+set_location_assignment PIN_20 -to LSD[3]
+set_location_assignment PIN_21 -to LSD[2]
+set_location_assignment PIN_23 -to LSD[1]
+set_location_assignment PIN_24 -to LSD[0]
+set_location_assignment PIN_6 -to MSD[6]
+set_location_assignment PIN_7 -to MSD[5]
+set_location_assignment PIN_8 -to MSD[4]
+set_location_assignment PIN_9 -to MSD[3]
+set_location_assignment PIN_11 -to MSD[2]
+set_location_assignment PIN_12 -to MSD[1]
+set_location_assignment PIN_13 -to MSD[0]
+set_location_assignment PIN_14 -to FLEX_DIGIT2_DP
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name MISC_FILE mouse.dpf
+set_global_assignment -name MISC_FILE "C:/Users/Monitor/Downloads/Operacao_Digitais/Projeto_Mouse/mouse.dpf"
+set_location_assignment PIN_236 -to R
+set_location_assignment PIN_237 -to G
+set_location_assignment PIN_238 -to B
+set_location_assignment PIN_240 -to H
+set_location_assignment PIN_239 -to V
+set_global_assignment -name VHDL_FILE divfreq.vhd
+set_global_assignment -name VHDL_FILE vgadrive.vhd
+set_global_assignment -name VERILOG_FILE mira.v
+set_global_assignment -name VHDL_FILE debounce.vhd
+set_global_assignment -name VHDL_FILE ps2_mouse.vhd
+set_global_assignment -name VHDL_FILE ps2_transceiver.vhd
+set_global_assignment -name BDF_FILE mouse.bdf
+set_global_assignment -name VERILOG_FILE hexa7seg.v
+set_global_assignment -name QIP_FILE multplicador.qip
+set_global_assignment -name QIP_FILE Registrador.qip
+set_global_assignment -name QIP_FILE greaterthan.qip

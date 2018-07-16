@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 46.400 ns
+From           : reset_n
+To             : mira:inst1|count[2]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.200 ns
+From           : ps2_mouse:inst|mouse_data[4]
+To             : MSD[0]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.300 ns
+From           : reset_n
+To             : mira:inst1|count[18]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 20.45 MHz ( period = 48.900 ns )
+From           : Registrador:inst21|lpm_ff:lpm_ff_component|dffs[2]
+To             : mira:inst1|count1[3]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Registrador:inst22|lpm_ff:lpm_ff_component|dffs[9]
+To             : Registrador:inst23|lpm_ff:lpm_ff_component|dffs[9]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 20
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 20
+
+--------------------------------------------------------------------------------------
+
